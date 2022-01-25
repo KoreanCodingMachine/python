@@ -1,0 +1,10 @@
+A = int(input())
+B = input()
+num1 = A*int(B[-1])
+num2 = A*int(B[-2])
+num3 = A*int(B[-3])
+
+print(A*int(B[-1]))
+print(A*int(B[-2]))
+print(A*int(B[-3]))
+print(num1+num2*10+num3*100)
